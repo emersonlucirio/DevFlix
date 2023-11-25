@@ -1,7 +1,15 @@
+![logo-imersao-aluraflix](https://github.com/emersonlucirio/DevFlix/assets/112041088/94495aed-e825-462d-9dc2-4e326387d148)
+
+
+
 # Imersão Dev 🚀
 
 ## Desafio AluraFlix
-[#Alura #Imersãodev](https://alura.com.br/) 👨🏽‍💻
+
+### *Links*
+* [#Alura #Imersãodev](https://alura.com.br/) 👨🏽‍💻
+* [Projeto:](https://emersonlucirio.github.io/DevFlix/) 📁
+
 
 ### Nesta aula, exploraremos estruturas de dados e como trabalhar com listas. Abordaremos os seguintes tópicos:
 
