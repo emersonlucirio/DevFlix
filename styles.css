@@ -6,8 +6,8 @@
   body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    background-image: url("https://images.pixexid.com/empty-theatre-spotlit-stage-whispers-of-performance-dreams-and-audience-applau-c9tkpwmg.webp?h=698&q=70");
-    background-color: #000000;
+    background-image: url("img/cinema.png");
+    max-width: 100%;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
   .container {
     text-align: center;
     padding: 20px;
-    background: red;
+    background: rgb(0, 0, 0);
  
   }
   
@@ -39,14 +39,11 @@
     right: 10px;
   }
   
-  /* body > img {
-    margin: 20px 15px;
-  } */
-  
+
   .container_todosFilmes{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
   .container_filme{
@@ -65,7 +62,31 @@
   }
   
   p{
-    color: red;
+    color: rgb(9, 126, 172);
   }
   
+
+  @media only screen and (max-width: 762px) {
+    body  {
+      width: 100%;
+      background-image: url(img/cinema-cel.png);
+    }
+
+    .page-title {
+      font-size: 45px;
+      text-align: left;
+      
+    }
+
+    img {
+      max-width: 70%;
+      padding-top: 0.1rem;
+    }
+
+    .container_todosFilmes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 4px;
+    }
+  }
   
